@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(235, 232, 232);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin-bottom: 2rem;
+}
+
+nav ul li{
+    display: inline-flex;
+    padding: 20px 26px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+nav li a{
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(34, 38, 49);
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+}
+.hero {
+    margin-left: 2%;
+    position: relative;
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden; 
+}
+
+.hero-image {
+    position: relative;
+    width: 98%;
+    height: 100%;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #afaaaa; 
+}
+
+.hero-text h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 20px; /* Adjust font size */
+}
+.hero-text:hover {
+    font-size: 39px;
+    color: white;
+    box-shadow: 1px 1px 2px 3px gray;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* About Mariana and Mangata & Gallo */
+.about {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+.about .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.about p {
+    font-size: 16px;
+}
+
+
+/* Footer */
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+    text-align: center;
+}
+.footer{
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+.social-media-links i{
+    margin: 2rem;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.footer p{
+    padding: 8px;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
